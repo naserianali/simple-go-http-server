@@ -1,8 +1,6 @@
 package main
 
-import (
-	"HttpServer/server"
-)
+import "HttpServer/server"
 
 func main() {
 	server.CreateServerWithMux()
